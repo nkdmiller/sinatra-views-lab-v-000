@@ -3,7 +3,7 @@
   <body>
     <h1>Today</h1>
     <% daynames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] %>
-    <% monthnames = ["January" , "February" , "March" , "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    <% monthnames = ["January" , "February" , "March" , "April", "May", "June", "July", "August", "September", "October", "November", "December"] %>
     <% t = Time.now %>
     <% "<p>The date is #{daynames[t.wday]}, #{monthnames[t.month]} #{t.day}, #{t.year}.</p>" %>
   </body>
